@@ -167,7 +167,7 @@ function scroll() {
   // google map
   ///////////////////////////////
 
-function initialize()
+function initMap()
 {
 var mapProp = {
   center:new google.maps.LatLng(33.766091,-117.917614),
@@ -180,7 +180,7 @@ var map=new google.maps.Map(document.getElementById("googleMap")
   ,mapProp);
 }
 
-google.maps.event.addDomListener(window, 'load', initialize);
+google.maps.event.addDomListener(window, 'load', initMap);
 
 // Get the modal
 var modal = document.getElementById('myModal');

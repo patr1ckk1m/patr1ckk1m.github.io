@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+
+<html class="no-js">
+    <head>
+        <title>Patrick Kim</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/font_icon/css/pe-icon-7-stroke.css">
+        <link rel="stylesheet" href="assets/font_icon/css/helper.css">
+        <link rel="stylesheet" href="assets/css/owl.carousel.css">
+        <link rel="stylesheet" href="assets/css/owl.theme.css">
+        <link rel="stylesheet" href="assets/css/animate.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+
+        <link href='http://fonts.googleapis.com/css?family=Dosis:200,300,400,500|Lato:300,400,700,900,300italic,400italic,700italic,900italic|Raleway:400,200,300,500,100|Titillium+Web:400,200,300italic,300,200italic' rel='stylesheet' type='text/css'>
+
+        <script src="assets/js/modernizr.js"></script>
+        <script src = "assets/js/script.js"></script>
+
+    </head>
+    <body id="body">
+        <header id="header">
+            <div class="center text-center">
+                <h1 class="bigheadline">Patrick Kim</h1>
+                <h4 class="subheadline">Full Stack Web Developer</h4>
+            </div>
+            <div class="bottom">
+                <a data-scroll href="#navigation" class="scrollDown animated pulse" id="scrollToContent"><i class="pe-7s-angle-down-circle pe-va"></i></a>
+            </div>
+        </header>
+
+        <section id="navigation">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-6">
+                        <div class="logo"><a data-scroll href="#body" class="logo-text">Patrick Kim</a></div>
+                    </div>
+                    <div class="col-xs-6">
+                        <div class="nav">
+                            <a href="#" data-placement="bottom" title="Menu" class="menu" data-toggle="dropdown"><i class="pe-7s-menu"></i></a>
+                             <div class="dropdown-menu">
+                                 <div class="arrow-up"></div>
+                                 <ul>
+                                     <li><a data-scroll href="#body">Home <i class="pe-7s-home"></i></a><span class="menu-effect"></span></li>
+                                     <li><a data-scroll href="#services">Technologies <i class="pe-7s-config"></i></a><span class="menu-effect"></span></li>
+                                     <li><a data-scroll href="#portfolio">Portfolio <i class="pe-7s-glasses"></i></a><span class="menu-effect"></span></li>
+                                     <li><a data-scroll href="#testimonial">About Me <i class="pe-7s-comment"></i><span class="menu-effect"></span></a></li>
+                                     <li><a data-scroll href="#contact">Contact <i class="pe-7s-help1"></i></a><span class="menu-effect"></span></li>
+                                 </ul>
+                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>            
+        </section>
+
+        <section id="services" class="service-area">
+            <div class="container">
+                <h2 class="block_title">Technologies</h2>
+                <div class="row">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="services">
+                            <div class="service-wrap">    
+                                <img src = "assets/images/mean.png" class = "techimage">
+                                <h3>MEAN</h3>
+                                <p>JavaScript, MongoDB, Express.js, Angular 4, Node.js</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="services">
+                            <div class="service-wrap">
+                                <img src="assets/images/python.png" class = "techimage">
+                                <h3>Python</h3>
+                                <p>Python, MySQL, Flask, AJAX, Django</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="services">
+                            <div class="service-wrap">
+                                <img src="assets/images/java.png" class = "techimage">
+                                <h3>Java</h3>
+                                <p>Spring, Spring Boot, Thymeleaf, MySQL</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="services">
+                            <div class="service-wrap">
+                                <img src = "assets/images/ruby.png" class = "techimage">
+                                <h3>Ruby (in progress)</h3>
+                                <p>Ruby, Ruby on Rails</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section><!-- services -->
+
+        <!-- Portfolio Area -->
+
+        <section id="portfolio" class="portfolio-area">
+            <div class="container">
+                <h2 class="block_title">Projects</h2>
+                <div class="row port cs-style-3">
+                    <div class="col-md-4 col-sm-6 col-xs-12 item-space">
+                        <figure>
+                            <img src="assets/images/spaceshooter.jpg" alt="1942" class = "portimg" onclick = "openModal();currentSlide(1)">
+                            <figcaption>
+                                <h3>SpaceShooter</h3>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12 item-space">
+                        <figure>
+                            <img src="assets/images/events.jpg" alt="events img" class = "portimg" onclick = "openModal();currentSlide(2)">
+                            <figcaption>
+                                <h3>Events</h3>
+                                <span></span>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12 item-space">
+                        <figure>
+                            <img src="assets/images/alexa.jpg" alt="" class = "portimg" onclick = "openModal();currentSlide(3)">
+                            <figcaption>
+                                <h3>Alexa</h3>
+                                <span></span>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12 item-space">
+                        <figure>
+                            <img src="assets/images/concert.jpg" alt="img04" class = "portimg" onclick = "openModal();currentSlide(4)">
+                            <figcaption>
+                                <h3>Concerts</h3>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12 item-space">
+                        <figure>
+                            <img src="assets/images/library.jpg" alt="img01" class = "portimg" onclick = "openModal();currentSlide(5)">
+                            <figcaption>
+                                <h3>Library</h3>
+                            </figcaption> 
+                        </figure>
+                    </div>
+                    <div class = "overlaycontainer">
+                    <div class="col-md-4 col-sm-6 col-xs-12 item-space">
+                        <figure>
+                            <img src="assets/images/github.jpg" alt="img02">
+                            <div class = "overlay">
+                                <div class = "overlaytext"><a href = "https://github.com/patr1ckk1m?tab=repositories">View More</a></div>
+                            </div>
+                            <figcaption>
+                                <h3>Github</h3>
+                                <span>Info</span>
+
+                            </figcaption>
+                        </figure>
+                    </div>
+                    </div>
+                    <!-- <div class="col-xs-12">
+                        <div class="btn-center"><a href="#" class="big button">View all</a></div>
+                    </div> -->
+                </div>
+
+        <div id="myModal" class="modal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+
+            <div class="mySlides">
+            <div class="numbertext"></div>
+                <p data-height="800" data-theme-id="dark" data-slug-hash="PJZjvz" data-default-tab="result" data-user="patr1ckk1m" data-embed-version="2" data-pen-title="SpaceShooter" class="codepen">See the Pen <a href="https://codepen.io/patr1ckk1m/pen/PJZjvz/">SpaceShooter</a> by Patrick Kim (<a href="https://codepen.io/patr1ckk1m">@patr1ckk1m</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+        <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+                <p><b>Space Shooter</b></p>
+                <p>A classic browser plane shooting game!</p>
+                <p>Features: JavaScript/HTML DOM to move plane and shoot, scoring system</p>
+                <p>Technologies: HTML, CSS, JavaScript</p>
+                <a href = "https://codepen.io/patr1ckk1m/pen/PJZjvz" target = "_blank"><img src = "assets/images/codepen.png" class = "portimglink"></a>
+                <a href = "https://github.com/patr1ckk1m/PlaneGame" target = "_blank"><img src = "assets/images/github.png" class = "portimglink"></a>
+            </div>
+
+            <div class="mySlides">
+            <div class="numbertext"></div>
+                <img src="assets/images/eventsresized.jpg" style="width:100%; height: 590px">
+                <p><b>EventManager</b></p>
+                <p>Locate events in the US!</p>
+                <p>Features: Login/registration, create/update/delete events, view user information, message board</p>
+                <p>Technologies: Java, Spring Boot, MySQL</p>
+                <a href = "https://github.com/patr1ckk1m/SpringEvents" target = "_blank"><img src = "assets/images/github.png" class = "portimglink"></a>
+            </div>
+
+            <div class="mySlides">
+            <div class="numbertext"></div>
+                <img src="assets/images/alexaresized.jpg" style="width:100%; height: 590px;">
+                <p><b>Motivational Morning</b></p>
+                <p>Amazon Alexa skill to get your day started right!</p>
+                <p>Features: Invocation provides random quote, over 1000 unique users</p>
+                <p>Technologies: JavaScript, Alexa Skills Kit, AWS Lambda, VUI Design</p>
+                <a href = "https://www.amazon.com/product-reviews/B073XFP4W3/ref=cm_cr_arp_d_viewopt_rvwer?ie=UTF8&reviewerType=all_reviews&showViewpoints=1&pageNumber=1" target = "_blank"><img src = "assets/images/amazon.png" class = "portimglink"></a>
+            </div>
+
+            <div class="mySlides">
+            <div class="numbertext"></div>
+                <img src="assets/images/concertmean.jpg" style="width:100%; height:590px">
+                <p><b>Concert Explorer</b></p>
+                <p>Web application to search for concerts</p>
+                <p>Features: Search concert by artist or city, get artist/venue info through SongKick API</p>
+                <p>Technologies: Express.js, Angular 4, Node.js, Bootstrap, API</p>
+                <a href = "https://github.com/patr1ckk1m/ConcertApp" target = "_blank"><img src = "assets/images/github.png" class = "portimglink"></a>
+            </div>
+
+            <div class="mySlides">
+            <div class="numbertext">5 / 5</div>
+                <img src="assets/images/libraryresized.jpg" style="width:100%; height:590px">
+                <p><b>Library Checkout</b></p>
+                <p>Back end logic for a library checkout system</p>
+                <p>Features: Check-in/check-out books and videos, view member's checked out media, print full receipt, limits 2 items per member</p>
+                <p>Technologies: Python, OOP</p>
+                <a href = "https://github.com/patr1ckk1m/librarycheckout" target = "_blank"><img src = "assets/images/github.png" class = "portimglink"></a>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        </div>
+            </div><!-- container -->
+        </section><!-- portfolio -->
+
+        <section id="testimonial" class="testimonial-area">
+            <div class="container">
+                <h2 class="block_title">About Me</h2>
+                <div class="row">
+                    <div class="col-xs-12">
+                    </div>
+                    <div id="testimonial-container" class="col-xs-12">
+                        <div class="testimonila-block">
+                            <img src="assets/images/newlinkedin.jpg" alt="clients" class="selfshot">
+                            <p>Motivated developer that enjoys long sits in front of a computer and programming jokes. I am a student at California State University, Long Beach studying Information Systems with an emphasis in internet application development. I also graduated from Coding Dojo, a 14 week immersive full stack coding bootcamp. I am open to all opportunites that can further develop my professional career as a developer.</p>
+                            <strong>Patrick Kim</strong>
+                            <br>
+                            <small>Full Stack Web Developer</small>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- container -->
+        </section><!-- testimonial -->
+
+
+        <section id="contact" class="mapWrap">
+            <div id="googleMap" style="width:100%;"></div>
+            <div id="contact-area">
+                <div class="container">
+                    <h2 class="block_title">Contact</h2>
+                    <div class="row">
+                        <div class="col-xs-12">
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="moreDetails">
+                                <h2 class="con-title">More About me</h2>
+                                <p> I am seeking all opportunities in OC (preferred) and Los Angeles County. </p>
+                                <ul class="address">
+                                    <li><i class="pe-7s-map-marker"></i><span>Garden Grove, CA 92481,<br>United States</span></li>
+                                    <li><i class="pe-7s-mail"></i><span>patrick.kim408@gmail.com</span></li>
+                                    <li><i class="pe-7s-global"></i><span><a href="https://github.com/patr1ckk1m">www.github.com/patr1ckk1m</a></span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <h2 class="con-title">Find Me On</h2>
+                            <li class="social-icons"><a class="linkedin" href="https://www.linkedin.com/in/kim-patrick/" target = "_blank"></a></li>
+                        </div>
+                    </div>
+                </div><!-- container -->
+            </div><!-- contact-area -->
+            <div id="social">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <ul class="scoialinks">
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- social -->
+        </section><!-- contact -->
+
+        <script src="assets/js/jquery-2.1.3.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+        <script src="assets/js/jquery.actual.min.js"></script>
+        <script src="assets/js/smooth-scroll.js"></script>
+        <script src="assets/js/owl.carousel.js"></script>
+        <script src="assets/js/script.js"></script>
+
+    </body>
+    <script>
+function openModal() {
+  document.getElementById('myModal').style.display = "block";
+}
+
+function closeModal() {
+  document.getElementById('myModal').style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+</html>
+
